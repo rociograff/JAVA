@@ -14,7 +14,7 @@ Realizar un modulo recursivo que lea caracteres hasta que ingrese un punto y los
 Si la entrada es 'A''B''C''D''.' la salida por pantalla sera 'DCBA'
 */
 public class Ej3a2016 {
-    //puto el que lee (kappa (?)
+    
     
     
 }
