@@ -1,4 +1,4 @@
-package TPObligatorio;
+package DesarrolloDeAlgoritmos2020.TPObligatorio;
 
 import java.util.Scanner;
 

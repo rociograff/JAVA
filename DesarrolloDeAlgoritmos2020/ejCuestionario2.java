@@ -1,3 +1,5 @@
+package DesarrolloDeAlgoritmos2020;
+
 public class ejCuestionario2 {
     public static void main(String[] args) {
         int[][] mat = { { 1, 2 }, { 3, 4 } };

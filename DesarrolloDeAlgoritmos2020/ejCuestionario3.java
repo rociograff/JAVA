@@ -1,3 +1,5 @@
+package DesarrolloDeAlgoritmos2020;
+
 public class ejCuestionario3 {
     public static void main (String [] args) {
         int numero = 2111;

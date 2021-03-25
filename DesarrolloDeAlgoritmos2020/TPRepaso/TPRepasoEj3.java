@@ -1,4 +1,4 @@
-package TPRepaso;
+package DesarrolloDeAlgoritmos2020.TPRepaso;
 import java.util.Scanner;
 
 /*Diseñar un módulo en pseudocódigo que dado un número que ingresa por un parámetro

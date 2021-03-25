@@ -1,4 +1,4 @@
-package TPRepaso;
+package DesarrolloDeAlgoritmos2020.TPRepaso;
 import java.util.Scanner;
 
 /*Diseñar un algoritmo en pseudocódigo que dado un valor entero de 3 cifras (debe verificarlo)

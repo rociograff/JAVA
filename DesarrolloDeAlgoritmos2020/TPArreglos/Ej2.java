@@ -1,4 +1,4 @@
-package TPArreglos;
+package DesarrolloDeAlgoritmos2020.TPArreglos;
 import java.util.Scanner;
 
 /*Diseñar un algoritmo en pseudocódigo que llene un arreglo de 5 números con valores fijos y

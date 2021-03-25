@@ -1,3 +1,4 @@
+package DesarrolloDeAlgoritmos2020;
 import java.util.Scanner;
 
 public class contar {

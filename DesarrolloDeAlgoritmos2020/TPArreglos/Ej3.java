@@ -1,4 +1,4 @@
-package TPArreglos;
+package DesarrolloDeAlgoritmos2020.TPArreglos;
 
 import java.util.Scanner;
 

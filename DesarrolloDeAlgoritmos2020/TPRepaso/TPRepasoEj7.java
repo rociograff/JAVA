@@ -1,4 +1,4 @@
-package TPRepaso;
+package DesarrolloDeAlgoritmos2020.TPRepaso;
 import java.util.Scanner;
 
 /*Diseñar un módulo en pseudocódigo que dada una frase y un caracter, verifique si el

@@ -1,4 +1,4 @@
-package TPRepaso;
+package DesarrolloDeAlgoritmos2020.TPRepaso;
 import java.util.Scanner;
 
 /*Diseñar un algoritmo en pseudocódigo que permita ingresar una frase por teclado, y en base

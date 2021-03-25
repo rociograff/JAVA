@@ -1,4 +1,4 @@
-package TPMatrices;
+package DesarrolloDeAlgoritmos2020.TPMatrices;
 import java.util.Scanner;
 
 public class Ej9 {

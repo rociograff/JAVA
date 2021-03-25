@@ -1,4 +1,4 @@
-package SegundoParcial;
+package DesarrolloDeAlgoritmos2020.SegundoParcial;
 
 public class Ej1 {
     public static void burbuja(int [] a) {

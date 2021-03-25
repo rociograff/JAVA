@@ -1,4 +1,4 @@
-package TPArreglos;
+package DesarrolloDeAlgoritmos2020.TPArreglos;
 import java.util.Scanner;
 
 /*. Diseñar un algoritmo en pseudocódigo que dado un valor entero N y un arreglo de enteros,

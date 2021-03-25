@@ -1,4 +1,4 @@
-package PrimerParcial;
+package DesarrolloDeAlgoritmos2020.PrimerParcial;
 
 public class Usuario {
     private String nombre;

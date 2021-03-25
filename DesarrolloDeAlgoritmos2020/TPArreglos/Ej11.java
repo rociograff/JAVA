@@ -1,4 +1,4 @@
-package TPArreglos;
+package DesarrolloDeAlgoritmos2020.TPArreglos;
 import java.util.Scanner;
 
 /*Diseñar dos módulos en pseudocódigo que dado un arreglo de caracteres y un caracter:

@@ -1,4 +1,4 @@
-package SegundoParcial;
+package DesarrolloDeAlgoritmos2020.SegundoParcial;
 import java.util.Scanner;
 
 public class Ej3a {

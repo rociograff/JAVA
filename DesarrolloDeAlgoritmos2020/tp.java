@@ -1,3 +1,5 @@
+package DesarrolloDeAlgoritmos2020;
+
 public class tp {
     public static void modificaArreglo(int[] temperatura) {
 
@@ -10,24 +12,25 @@ public class tp {
     }
 
     public static void main(String[] args) {
-   
-           // TODO code application logic here
-   
-           int i;
-   
-           int[] elementos = {1, 2, 4, 3};
-   
-           for (i = 0; i < elementos.length; i++) {
-   
-               System.out.print(elementos[i] + " ");
-   
-           }
-   
-           modificaArreglo(elementos);
-   
-           for (i = 0; i < elementos.length; i++) {
-   
-               System.out.print(elementos[i] + " ");
-   
-           }
+
+        // TODO code application logic here
+
+        int i;
+
+        int[] elementos = { 1, 2, 4, 3 };
+
+        for (i = 0; i < elementos.length; i++) {
+
+            System.out.print(elementos[i] + " ");
+
+        }
+
+        modificaArreglo(elementos);
+
+        for (i = 0; i < elementos.length; i++) {
+
+            System.out.print(elementos[i] + " ");
+
+        }
+    }
 }
