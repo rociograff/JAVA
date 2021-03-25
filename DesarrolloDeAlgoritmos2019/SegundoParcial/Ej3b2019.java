@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package SegundoParcial;
+package DesarrolloDeAlgoritmos2019.SegundoParcial;
 
-import Utiles.TecladoIn;
+import DesarrolloDeAlgoritmos2019.utiles.TecladoIn;
 
 /**
  *

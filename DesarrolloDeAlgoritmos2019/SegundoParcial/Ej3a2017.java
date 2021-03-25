@@ -1,4 +1,4 @@
-package SegundoParcial;
+package DesarrolloDeAlgoritmos2019.SegundoParcial;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

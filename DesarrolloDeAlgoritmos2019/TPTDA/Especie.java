@@ -8,7 +8,7 @@
  *
  * @author Rocio Graff
  */
-package TPTDA;
+package DesarrolloDeAlgoritmos2019.TPTDA;
 public class Especie {
 
     //Atributos

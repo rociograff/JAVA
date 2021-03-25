@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TPTDA;
-import Utiles.TecladoIn;
+package DesarrolloDeAlgoritmos2019.TPTDA;
+import DesarrolloDeAlgoritmos2019.utiles.TecladoIn;
 
 /**
  *

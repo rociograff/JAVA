@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Final22062017;
+package DesarrolloDeAlgoritmos2019.Final22062017;
 
-import Utiles.TecladoIn;
+import DesarrolloDeAlgoritmos2019.utiles.TecladoIn;
 
 /**
  *

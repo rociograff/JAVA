@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MetodosAvanzados;
+package DesarrolloDeAlgoritmos2019.MetodosAvanzados;
 
-import Utiles.TecladoIn;
+import DesarrolloDeAlgoritmos2019.utiles.TecladoIn;
 import java.util.Arrays;
 
 /**
