@@ -1,1 +1,5 @@
-Trabajos realizados durante el cursado de las materias Desarrollo de Algoritmos y Estructuras de Datos de la carrera Licenciatura en Ciencias de la Computacion
+Primer año de la Licenciatura en Ciencias de la Computacion 
+- Desarrollo de Algoritomos (con recursado)
+
+Segundo año 
+- Estructuras de Datos 
