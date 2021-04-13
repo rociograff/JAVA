@@ -1,4 +1,6 @@
-Primer año de la Licenciatura en Ciencias de la Computacion 
+Licenciatura en Ciencias de la Computacion 
+
+Primer año 
 - Desarrollo de Algoritmos (con recursado)
 
 Segundo año 
