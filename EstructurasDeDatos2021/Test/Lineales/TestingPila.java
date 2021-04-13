@@ -1,4 +1,5 @@
 package EstructurasDeDatos2021.Test.Lineales;
+import EstructurasDeDatos2021.Lineales.Dinamicas.*;
 
 public class TestingPila {
     static String sOk = "OK!", sErr = "ERROR";

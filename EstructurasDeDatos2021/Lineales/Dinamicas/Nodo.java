@@ -11,6 +11,11 @@ public class Nodo {
         this.enlace = enlace;
     }
     
+    public Nodo(){
+        this.elem = null;
+        this.enlace = null;
+    }
+    
     //Modificadoras
     public void setElem(Object elem) {
         this.elem = elem;
