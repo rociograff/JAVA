@@ -1,6 +1,10 @@
 package EstructurasDeDatos2021.Test.Lineales;
 import EstructurasDeDatos2021.Lineales.Dinamicas.*;
 
+/**
+ * @autor La Catedra
+ */
+
 public class TestingCola {
     static String sOk = "OK!", sErr = "ERROR";
 
