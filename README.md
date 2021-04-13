@@ -1,5 +1,5 @@
 Primer año de la Licenciatura en Ciencias de la Computacion 
-- Desarrollo de Algoritomos (con recursado)
+- Desarrollo de Algoritmos (con recursado)
 
 Segundo año 
 - Estructuras de Datos 
