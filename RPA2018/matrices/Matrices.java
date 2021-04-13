@@ -1,9 +1,9 @@
-package matricesvero;
+package RPA2018.matrices;
 
 /**
  * @author usuario
  */
-public class MatricesVero {
+public class Matrices {
 
     
     public static void cargar(int[] argNumero){

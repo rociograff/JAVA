@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tp8;
-import Utiles.TecladoIn;
+package RPA2018.tp8;
+import RPA2018.utiles.*;
+
 public class Ej11 {
     
     public static int calculoTarifa (int hora, int precioHora) {

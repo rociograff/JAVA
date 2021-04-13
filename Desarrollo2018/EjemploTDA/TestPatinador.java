@@ -1,6 +1,6 @@
-package EjemploTDA;
+package Desarrollo2018.EjemploTDA;
 
-import Utiles.TecladoIn;
+import Desarrollo2018.utiles.*;
 
 public class TestPatinador {
 

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TPArregloEntrega;
+package Desarrollo2018.TPArregloEntrega;
 
-import static TPArreglos.Ej2.imprimirCartel;
+
 import java.util.Arrays;
 
 /**

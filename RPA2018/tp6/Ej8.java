@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tp6ro;
+package RPA2018.tp6;
 
-import Utiles.TecladoIn;
+import RPA2018.utiles.*;
 
 /**
  *

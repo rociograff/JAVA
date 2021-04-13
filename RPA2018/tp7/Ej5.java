@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tp7;
+package RPA2018.tp7;
 
-import Utiles.TecladoIn;
-import com.sun.xml.internal.ws.resources.ServerMessages;
+import RPA2018.utiles.*;
 
 /**
  *

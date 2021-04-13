@@ -1,6 +1,6 @@
-package TP_Perros;
+package Desarrollo2018.TP_Perros;
 
-import Utiles.TecladoIn;
+import Desarrollo2018.utiles.*;
 
 public class TestPerro {
 

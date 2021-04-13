@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TPArregloBidimensionales;
+package Desarrollo2018.TPArregloBidimensionales;
 
-import Utiles.TecladoIn;
+import Desarrollo2018.utiles.*;
 
 /**
  *
