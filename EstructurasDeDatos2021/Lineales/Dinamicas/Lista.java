@@ -32,14 +32,12 @@ public class Lista {
                         aux = aux.getEnlace();
                         i++;
                     }
-                    // crea el nodo y lo enlaza
-                    Nodo nuevo = new Nodo(nuevoElem, aux.getEnlace());
+                    Nodo nuevo = new Nodo(nuevoElem, aux.getEnlace());  // crea el nodo y lo enlaza
                     aux.setEnlace(nuevo);
                 }
                 this.longitud++;
             }
-            // nunca hay error de lista llena, entonces devuelve true
-            return exito;
+            return exito;  // nunca hay error de lista llena, entonces devuelve true
         }
     
         /**
@@ -50,29 +48,21 @@ public class Lista {
          */
         public boolean eliminar(int pos) {
             boolean exito = true;
-            int i = 1;
-            Nodo aux;
-    
-            if(pos < 1 || pos > longitud){
+            if (pos < 1 || pos > this.longitud) {
                 exito = false;
-            } else{
-                if(pos == 1){
-                    if(this.cabecera != null){
-                        aux = this.cabecera.getEnlace();
-                        this.cabecera = aux;
-                        this.longitud--;
-                    } else {
-                        exito = false;
-                    }
+            } else {
+                if (pos == 1) {
+                    this.cabecera = this.cabecera.getEnlace();
                 } else {
-                    aux = this.cabecera;
-                    while(i < pos-1){
+                    Nodo aux = this.cabecera;
+                    int i = 1;
+                    while (i < pos - 1) {
                         aux = aux.getEnlace();
                         i++;
                     }
                     aux.setEnlace(aux.getEnlace().getEnlace());
-                    this.longitud--;
                 }
+                this.longitud--;
             }
             return exito;
         }
@@ -145,12 +135,9 @@ public class Lista {
         public Lista clone() {
          // Metodo que dada una estructura de tipo Lista, la recorre y copia los elementos en otra estructura similar.
          // Retorna una lista.
-         Lista clon;
-         
-         clon = new Lista();
+         Lista clon = new Lista();
     
          clon = cloneAux(clon, this.cabecera);  // Invocacion de un metodo auxiliar recursivo privado
-    
          clon.longitud = this.longitud; // A mi lista clon le asigno la longitud actual de mi Lista
     
          return clon;
@@ -163,7 +150,7 @@ public class Lista {
          * con que no tiene mas nodos cargados.
          * @param clon
          * @param aux
-         * @return clon
+         * @return Lista clon
          */
         private Lista cloneAux(Lista clon, Nodo aux){
             if(aux != null){
