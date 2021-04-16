@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Test.LinealesPropios;
+package EstructurasDeDatos2021.Test.Lineales.Propios;
 
 import EstructurasDeDatos2021.Lineales.Estaticas.*;
 

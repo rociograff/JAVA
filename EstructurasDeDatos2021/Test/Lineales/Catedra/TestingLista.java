@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Test.LinealesCatedra;
+package EstructurasDeDatos2021.Test.Lineales.Catedra;
 import EstructurasDeDatos2021.Lineales.Dinamicas.*;
 
 /**
