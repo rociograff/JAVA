@@ -1,10 +1,10 @@
-package EstructurasDeDatos2021.Test.Lineales;
+package EstructurasDeDatos2021.Test.LinealesPropios;
 
 import EstructurasDeDatos2021.Lineales.Estaticas.*;
 
 /**
  * Se pedia que los estudiantes hagan su propio testCola
- * @autor Rocio Graff
+ * @author Rocio Graff
  */
 
 public class TestCola {

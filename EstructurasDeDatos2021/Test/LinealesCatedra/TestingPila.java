@@ -1,5 +1,5 @@
-package EstructurasDeDatos2021.Test.Lineales;
-import EstructurasDeDatos2021.Lineales.Dinamicas.*;
+package EstructurasDeDatos2021.Test.LinealesCatedra;
+import EstructurasDeDatos2021.Lineales.Estaticas.*;
 
 /**
  * @author La Catedra

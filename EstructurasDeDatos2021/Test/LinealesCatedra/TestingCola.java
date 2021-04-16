@@ -1,8 +1,8 @@
-package EstructurasDeDatos2021.Test.Lineales;
+package EstructurasDeDatos2021.Test.LinealesCatedra;
 import EstructurasDeDatos2021.Lineales.Dinamicas.*;
 
 /**
- * @autor La Catedra
+ * @author La Catedra
  */
 
 public class TestingCola {
@@ -16,7 +16,6 @@ public class TestingCola {
 		System.out.println("COMIENZO TEST COLA");
 		Cola q1 = new Cola();
 		System.out.println("Cola vacia: \t\t\t\t\t\t\t--> " + q1.toString());
-		boolean exito = true;
 
 		System.out.println("Si es cola estatica tamanio <= 10 se debe llenar");
 		int num = 1;
