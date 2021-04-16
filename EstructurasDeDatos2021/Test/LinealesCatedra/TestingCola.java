@@ -2,7 +2,7 @@ package EstructurasDeDatos2021.Test.LinealesCatedra;
 import EstructurasDeDatos2021.Lineales.Dinamicas.*;
 
 /**
- * @author La Catedra
+ * @author Catedra Estructura de Datos
  */
 
 public class TestingCola {
