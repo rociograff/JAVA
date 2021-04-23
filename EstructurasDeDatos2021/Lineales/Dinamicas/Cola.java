@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Lineales.Dinamicas;
+package Lineales.Dinamicas;
 
 public class Cola {
     // Atributos
@@ -68,30 +68,6 @@ public class Cola {
         }
     }
 
-    public Cola clone() {  //Clonar iterativo
-        // Metodo que crea una estructura de tipo Cola auxiliar, y copia los nodos de la estructura original en la auxiliar.
-        // Zona de declaracion de variables
-        Cola clon;
-        Nodo aux;
-        // Zona de inicializacion de variables
-        clon = new Cola();
-        aux = new Nodo();
-
-        if(!esVacia()){
-            aux = this.frente;  // El nodo auxiliar apunta al frente
-            clon.frente = aux;  // El frente de la cola apunta al nodo auxiliar
-            clon.fin = aux;     // El fin de la cola apunta al nodo auxiliar
-            aux = aux.getEnlace();  // Obtengo el enlace al siguiente nodo
-
-            // Me muevo hacia los demás nodos
-            while(aux != null){
-                clon.fin = aux; // A fin le asigno el nodo actual
-                aux = aux.getEnlace();  // Obtengo el enlace al siguiente nodo
-            }
-        }
-        return clon;
-    }
-
     /*public Cola clone() { // Clonar iterativo de la profe (NO ME FUNCIONA)
         Cola clon = new Cola();
         Nodo aux1 = this.frente;
@@ -111,7 +87,7 @@ public class Cola {
         clon.fin = aux2; // Enlazo el fin al ultimo nodo
 
         return clon;
-    }
+    }*/
 
     public Cola clone() { // Clonar recursivo
         Cola colaClon = new Cola();
@@ -133,7 +109,7 @@ public class Cola {
              clon.fin = aux; //Esta sentencia se encarga de asignar el fin de la cola 
         } 
         return aux;
-    }*/
+    }
 
     public String toString() {
         String retorno;

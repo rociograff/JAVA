@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Lineales.Estaticas;
+package Lineales.Estaticas;
 
 public class Cola {
     // Atributos
@@ -33,10 +33,8 @@ public class Cola {
         if (this.esVacia()) { // La cola esta vacia, reporta error
             exito = false;
         } else { // Al menos hay 1 elemento: avanza frente(de manera circular)
-            this.arreglo[this.frente] = null; // Le asigno null para asegurarme que la cola no apunta a elementos
-                                              // innecesarios
-            this.frente = (this.frente + 1) % this.TAMANIO; // Aumenta el frente con MOD TAMANIO para hacer la
-                                                            // circularidad
+            this.arreglo[this.frente] = null; // Le asigno null para asegurarme que la cola no apunta a elementos innecesarios
+            this.frente = (this.frente + 1) % this.TAMANIO; // Aumenta el frente con MOD TAMANIO para hacer la circularidad
         }
 
         return exito;
@@ -54,7 +52,7 @@ public class Cola {
     }
 
     public Object obtenerFrente() {
-        // Devuelve el frente de la pila
+        //Devuelve el frente de la pila
         Object retorno;
 
         if (this.esVacia()) {
@@ -74,14 +72,14 @@ public class Cola {
 
     public Cola clone() {
         Cola clon = new Cola();
-
-        while (this.frente != this.fin) {
-            clon.arreglo[this.frente] = this.arreglo[this.frente];
-            this.frente = (this.frente + 1) % this.TAMANIO;
+        int i = this.frente;
+        
+        while (i != this.fin) {//mientras que el frente no sea igual a fin
+            clon.arreglo[i] = this.arreglo[i];// al clon en la pos i le asigno el valor de la original en la pos i
+            i = (i + 1) % TAMANIO;// circularidad
         }
-        clon.frente = this.frente;
-        clon.fin = this.fin;
-
+        clon.fin = this.fin;//Le asigno el fin de la original al clon
+        clon.frente = this.frente;//Le asigno el frente de la original al clon
         return clon;
     }
 

@@ -1,6 +1,6 @@
-package EstructurasDeDatos2021.Test.Lineales.Propios;
+package Test.Lineales.Propios;
 
-import EstructurasDeDatos2021.Lineales.Estaticas.*;
+import Lineales.Estaticas.*;
 
 /**
  * Se pedia que los estudiantes hagan su propio testCola

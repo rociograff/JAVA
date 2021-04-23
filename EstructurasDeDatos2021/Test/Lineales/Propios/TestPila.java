@@ -1,5 +1,5 @@
-package EstructurasDeDatos2021.Test.Lineales.Propios;
-import EstructurasDeDatos2021.Lineales.Estaticas.*;
+package Test.Lineales.Propios;
+import Lineales.Estaticas.*;
 
 public class TestPila {
     public static void main(String [] args){

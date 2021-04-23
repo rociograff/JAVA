@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Lineales.Dinamicas;
+package Lineales.Dinamicas;
 
 public class Nodo {
     

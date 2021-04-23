@@ -1,4 +1,4 @@
-package EstructurasDeDatos2021.Lineales.Estaticas;
+package Lineales.Estaticas;
 
 public class Pila {
     // Constructor

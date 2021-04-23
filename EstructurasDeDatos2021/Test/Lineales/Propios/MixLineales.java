@@ -1,6 +1,6 @@
-package EstructurasDeDatos2021.Test.Lineales.Propios;
+package Test.Lineales.Propios;
 
-import EstructurasDeDatos2021.Lineales.Dinamicas.*;
+import Lineales.Dinamicas.*;
 
 public class MixLineales {
     public static void main(String[] args) {
